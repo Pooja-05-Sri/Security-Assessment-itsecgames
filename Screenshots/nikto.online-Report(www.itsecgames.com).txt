@@ -1,0 +1,16 @@
+- Nikto 
+---------------------------------------------------------------------------
++ Target IP:          31.3.96.40
++ Target Hostname:    www.itsecgames.com
++ Target Port:        80
++ Start Time:         2025-09-20 20:52:59 (GMT-7)
+---------------------------------------------------------------------------
++ Server: Apache
++ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ /31.3.96.40.cer: Drupal 7 was identified via the x-generator header. See: https://www.drupal.org/project/remove_http_headers
++ /31.3.96.40.cer: Link header found with value: <http://31.3.96.40/>; rel="canonical",<http://31.3.96.40/>; rel="shortlink". See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link
++ Scan terminated: 0 error(s) and 3 item(s) reported on remote host
++ End Time:           2025-09-20 20:54:00 (GMT-7) (61 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
