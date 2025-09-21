@@ -39,16 +39,16 @@ All scans were conducted using only publicly available, non-intrusive tools. The
 
 Security-Assessment-itsecgames/
 │
-├── README.md ← This file
-├── Report.pdf ← Full consolidated report (findings + mitigations)
-├── Screenshots/
-│ ├── security_headers.png
-│ ├── ssl_labs.png
-│ ├── nmap_scan.png
-| ├── dns_lookup.png
-│ └── nikto_scan.png
-|
-└── Video-links.txt ← Public Google Drive links to video demos
+├── README.md        ← Overview of the assignment, tools, how to reproduce scans
+├── Security_Assessment_Report.pdf ← Your full detailed PDF report
+├── Screenshots/     ← All screenshots of scan results
+│   ├── security_headers.png
+│   ├── ssl_labs.png
+│   ├── nmap_scan.png
+│   ├── dns_lookup.png
+│   ├── nikto_scan.png
+└── Video-links.txt 
+
 
 
 ---
@@ -78,8 +78,8 @@ Security-Assessment-itsecgames/
    - Enter: `www.itsecgames.com` → Start test → Save results screenshot `ssl_labs.png`.
 
 3. **Nmap (Online Basic Scan)**  
-   - Visit an online nmap service (or run locally if you have permission):  
-     `nmap -sV www.itsecgames.com`  
+   - Visit an online nmap service : https://hackertarget.com/nmap-online-port-scanner/
+    - Enter: `www.itsecgames.com` → Start test → Save results screenshot `nmap_port_scanner.png`.
 
 4. **DNS Lookup**  
    - Use MXToolbox or any DNS lookup tool; export or screenshot the A, MX, NS, TXT and SOA results as `dns_lookup.png`.
@@ -87,7 +87,7 @@ Security-Assessment-itsecgames/
 5.  **Nikto Web Server Scanner**  
    - Visit: [https://hackertarget.com/nikto-website-scanner/](https://hackertarget.com/nikto-website-scanner/) (or another Nikto web interface).  
    - Enter: `http://www.itsecgames.com` → Run the scan to uncover common web server misconfigurations, outdated components, and publicly accessible files/directories.  
-  
+   - Save the results screenshot `Screenshots/nikto_scan.png`.
 
 ---
 
