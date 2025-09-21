@@ -88,6 +88,7 @@ Security-Assessment-itsecgames/
    - Visit: [https://hackertarget.com/nikto-website-scanner/](https://hackertarget.com/nikto-website-scanner/) (or another Nikto web interface).  
    - Enter: `http://www.itsecgames.com` → Run the scan to uncover common web server misconfigurations, outdated components, and publicly accessible files/directories.  
    - Save the results screenshot `Screenshots/nikto_scan.png`.
+   - Download the Nikto report from the website `nikto.online-Report(www.itsecgames.com).txt`.
 
 ---
 
