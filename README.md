@@ -38,16 +38,15 @@ All scans were conducted using only publicly available, non-intrusive tools. The
 ## 📁 Repo Structure
 
 Security-Assessment-itsecgames/
-│
-├── README.md        ← Overview of the assignment, tools, how to reproduce scans
-├── Security_Assessment_Report.pdf ← Your full detailed PDF report
-├── Screenshots/     ← All screenshots of scan results
+├── README.md
+├── Security_Assessment_Report.pdf
+├── Screenshots/
 │   ├── security_headers.png
 │   ├── ssl_labs.png
 │   ├── nmap_scan.png
 │   ├── dns_lookup.png
-│   ├── nikto_scan.png
-└── Video-links.txt 
+│   └── Screenshots/nikto_scan.png
+└── Video-links.txt
 
 
 
