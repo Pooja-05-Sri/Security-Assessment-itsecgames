@@ -91,7 +91,7 @@ Security-Assessment-itsecgames/
 
 ---
 
-## Report Contents (Report.pdf)
+## Report Contents (Security Assessment Report.pdf)
 The attached `Report.pdf` includes:
 - Problem statement & scope  
 - Tools & methodology  
